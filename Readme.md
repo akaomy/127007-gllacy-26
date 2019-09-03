@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Anna Kozlova](https://up.htmlacademy.ru/htmlcss/26/user/127007).
-* Наставник: `Неизвестно`.
+* Наставник: [Юрий Михин](https://htmlacademy.ru/profile/undgrnd).
 
 ---
 
