@@ -36,15 +36,45 @@
     </header>
 
       <main>
-        <h1>Магазин Глэйси</h1>
-
+        <section>
+          <span>С 10 до 20, ежедневно</span>
+          <span>8 812 450-25-25</span>
+        </section>
         <section>
           <a href="index.html">Главная</a> > <a href="catalog.html">Каталог</a>
            > Сливочное
         </section>
+        <h1>Сливочное мороженое</h1>
         <section>
-          <span>С 10 до 20, ежедневно</span>
-          <span>8 812 450-25-25</span>
+          <div>
+            <p>Сортировка:</p>
+              <select>
+                <option>по популярности</option>
+                <option>сначала недорогие</option>
+                <option>сначала дорогие</option>
+                <option>по жирности</option>
+              </select>
+          </div>
+          <div>
+            <p>Цена: 100 руб. – 500 руб.</p>
+            <!-- found this solution https://leaverou.github.io/multirange/ -->
+            <input type="range" />
+          </div>
+          <div>
+            <p>Жирность</p>
+            <input type="radio">0%<br>
+            <input type="radio">до 10%<br>
+            <input type="radio">до 30%<br>
+            <input type="radio">выше 30%<br>
+          </div>
+          <div>
+            <p>Наполнители</p>
+            <input type="checkbox"> шоколадные
+            <input type="checkbox"> сахарные присыпки
+            <input type="checkbox"> фрукты
+            <input type="checkbox"> джемы
+          </div>
+          <button type="button">Применить</button>
         </section>
         <h2>Сливочное мороженое</h2>
         <section>
@@ -85,8 +115,17 @@
           <p>Сливочное с мятным сиропом</p>
           <p>420 ₽/<span>кг</span></p>
         </section>
+        <section>
+          <ul>
+            <li><a href="#" class="selected">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">></a></li>
+          </ul>
+        </section>
       </main>
-
       <footer>
         <ul>
           <li><img src="img/twt.png" alt="twitter link"></li>
