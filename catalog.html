@@ -6,16 +6,18 @@
   </head>
   <body>
     <header>
-      <img src="img/svgs/logo.svg" alt="Gllacy Shop Logo">
+      <a>
+        <img src="img/svgs/logo.svg" alt="Gllacy Shop Logo">
+      </a>
       <nav>
         <ul>
             <li><a href="catalog.html">Каталог</a>
               <ul>
-                <li>Новинки</li>
-                <li>Сливочное</li>
-                <li>Щербеты</li>
-                <li>Фруктовый лед</li>
-                <li>Мелорин</li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Сливочное</a></li>
+                <li><a href="#">Щербеты</a></li>
+                <li><a href="#">Фруктовый лед</a></li>
+                <li><a href="#">Мелорин</a></li>
               </ul>
             </li>
             <li><a href="#">Доставка и оплата</a></li>
@@ -57,21 +59,21 @@
           </div>
           <div>
             <p>Цена: 100 руб. – 500 руб.</p>
-            <input type="range" />
+            <input type="range" name="range"/>
           </div>
           <div>
             <p>Жирность</p>
-            <input type="radio">0%<br>
-            <input type="radio">до 10%<br>
-            <input type="radio">до 30%<br>
-            <input type="radio">выше 30%<br>
+            <input type="radio" name="radio">0%<br>
+            <input type="radio" name="radio">до 10%<br>
+            <input type="radio" name="radio">до 30%<br>
+            <input type="radio" name="radio">выше 30%<br>
           </div>
           <div>
             <p>Наполнители</p>
-            <input type="checkbox"> шоколадные
-            <input type="checkbox"> сахарные присыпки
-            <input type="checkbox"> фрукты
-            <input type="checkbox"> джемы
+            <input type="checkbox" name="checkbox"> шоколадные
+            <input type="checkbox" name="checkbox"> сахарные присыпки
+            <input type="checkbox" name="checkbox"> фрукты
+            <input type="checkbox" name="checkbox"> джемы
           </div>
           <button type="button">Применить</button>
         </section>
@@ -132,24 +134,26 @@
           <li><img src="img/svgs/fb.svg" alt="facebook link"></li>
           <li><img src="img/svgs/vk.svg" alt="vk link"></li>
         </ul>
-        <div >
+        <div>
           <div>
             <img src="img/svgs/heart.svg" alt="heart">
-            <p>Для поставщиков</p>
-            <p>О производстве</p>
+            <p><a href="#">Для поставщиков</a></p>
+            <p><a href="#">О производстве</a></p>
           </div>
           <div>
-            <p>Наши документы</p>
-            <p>Экологические стандарты</p>
+            <p><a href="#">Наши документы</a></p>
+            <p><a href="#">Экологические стандарты</a></p>
           </div>
         </div>
         <div>
-          <img src="img/htmlacad-small-logo.png" alt="small html academy">
-          <h6>Сделано в HTML Academy © 2019</h6>
+          <a>
+            <img src="img/htmlacad-small-logo.png" alt="small html academy">
+          </a>
+          <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> © 2019</p>
         </div>
       </footer>
 
-      <!-- cart form -->
+      <!-- cart -->
       <section>
         <div>
           <button type="button" class="cross-btn">x</button>
