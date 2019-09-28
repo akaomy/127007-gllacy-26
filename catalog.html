@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
@@ -10,7 +13,7 @@
         <img src="img/logo.svg" alt="Gllacy Shop Logo">
       </span>
       <nav>
-        <ul>
+        <ul class="main-navigation">
             <li><a href="catalog.html">Каталог</a>
               <ul>
                 <li><a href="#">Новинки</a></li>
@@ -32,7 +35,7 @@
           <button type="button"><img src="img/entrance.svg" alt="login">Вход</button>
         </li>
         <li>
-          <a href="img/basket-red.svg">2 товара</a>
+          <a class="black-text" href="img/basket-red.svg">2 товара</a>
         </li>
       </ul>
     </header>
@@ -46,24 +49,25 @@
           <a href="index.html">Главная</a> > <a href="catalog.html">Каталог</a>
            > Сливочное
         </section>
-        <h1>Сливочное мороженое</h1>
+        <h1 class="hide-element">Glacy Shop</h1>
+        <h2>Сливочное мороженое</h2>
         <section>
           <form method="post" action="https://echo.htmlacademy.ru">
-            <label for="drop-down-sorting">Сортировка:</label>
+            <label for="drop-down-sorting">Сортировка:</label><br>
             <select id="drop-down-sorting">
               <option>по популярности</option>
               <option>сначала недорогие</option>
               <option>сначала дорогие</option>
               <option>по жирности</option>
             </select>
-            <label for="price-range">Цена: 100 руб. – 500 руб.</label>
+            <label for="price-range">Цена: 100 руб. – 500 руб.</label><br>
             <input type="range" id="price-range" name="price_range"/>
-            <label for="percentage">Жирность</label>
+            <label for="percentage">Жирность</label><br>
             <input type="radio" name="0" value="0">0%<br>
             <input type="radio" name="10%" value="10">до 10%<br>
             <input type="radio" name="30%" value="30">до 30%<br>
             <input type="radio" name="more_than_30%" value="30+">выше 30%<br>
-            <label for="fillings">Наполнители</label>
+            <label for="fillings">Наполнители</label><br>
             <input type="checkbox" name="chocolate_flavor" value="chocolate"> шоколадные
             <input type="checkbox" name="sugar_powders" value="sugar_powders"> сахарные присыпки
             <input type="checkbox" name="fruits" value="fruits"> фрукты
@@ -71,7 +75,6 @@
             <button type="button">Применить</button>
           </form>
         </section>
-        <h2>Сливочное мороженое</h2>
         <section>
           <img src="img/1(1).png" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
           <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>

@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
@@ -10,7 +13,7 @@
         <img src="img/logo.svg" alt="Gllacy Shop Logo">
       </span>
       <nav>
-        <ul>
+        <ul class="main-navigation">
             <li><a href="catalog.html">Каталог</a>
               <ul>
                 <li><a href="#">Новинки</a></li>
@@ -29,7 +32,7 @@
           <button><img src="img/Search.png" alt="search item"></button>
         </li>
         <li>
-          <button type="button"><img src="img/entrance.svg" alt="login">Вход</button>
+          <button type="button"><img class="entrance-img" src="img/entrance.svg" alt="login">Вход</button>
         </li>
         <li>
           <a href="img/basket.svg">Пусто</a>
@@ -43,10 +46,17 @@
             <span>С 10 до 20, ежедневно</span>
             <span>8 812 450-25-25</span>
           </div>
-          <img src="img/cone1.png" alt="ice cream cone1">
-          <img src="img/cone2.png" alt="ice cream cone1">
-          <div class="cone-bkg"></div>
-          <h1>Крем-брюле и пломбир с малиновым джемом</h1>
+          <div class="cone-bkg">
+            <div class="cone1"></div>
+            <div class="cone2"></div>
+            <!-- <div class="cone2">
+              <div class="cone1"></div>
+            </div> -->
+            <!-- <div class="cone2"></div> -->
+            <!-- <img src="img/cone1.png" alt="ice cream cone1">
+            <img src="img/cone2.png" alt="ice cream cone2"> -->
+          </div>
+          <h1 class="page-title">Крем-брюле и пломбир с малиновым джемом</h1>
           <button type="button">Давайте оба!</button>
           <div>
             <label class="dot-controller"></label>
@@ -55,23 +65,21 @@
           </div>
         </section>
 
-        <section>
-          <section>
-            <div class="raspberry-bkg"></div>
+        <section class="promo-banners">
+          <section class="raspberry-bkg">
             <h3>Малинка даром!</h3>
             <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш
               заказ банку малинового варенья бесплатно.</p>
             <a href="#">Хочу варенье!</></a>
           </section>
-          <section>
-            <div class="chocolate-bkg"></div>
+          <section class="chocolate-bkg">
             <h3>Шоколадки даром!</h3>
             <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку
               вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
               <a href="#">Хочу шоколадки!</a>
           </section>
         </section>
-        <section>
+        <section class="most-popular-flavors">
           <ul>
             <li>
               <span>HIT</span>
@@ -100,9 +108,8 @@
           </ul>
         </section>
       </section>
-      <section>
-        <div class="waffle-bkg"></div>
-        <article>
+      <section class="black-text">
+        <article class="waffle-bkg">
           <h2>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженного
             собственного производства на развес</h2>
           <img src="img/ice-cream.svg" alt="ice cream icon">
@@ -118,23 +125,22 @@
           <img src="img/thermometer.svg" alt="thermometer icon">
           <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
         </article>
-        <section>
-          <div class="strawberry-bkg"></div>
+        <section class="strawberry-bkg">
           <h3>Новое в нашем блоге</h3>
           <h4>10 способов сервировки фруктовых щербетов к столу</h4>
         </section>
         <section>
           <div class="striped-bkg"></div>
-          <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
+          <p class="subscribe-text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
           <input type="email" value="email@example.com">
-          <button>Отправить</button>
+          <button class="btn-send">Отправить</button>
         </section>
       </section>
       <section>
-        <!-- iframe of google maps -->
-        <img src="img/map.png"> <!-- temp -->
+        <iframe src="https://yandex.com/map-widget/v1/-/CCsfeZKz" width="100%" height="400" frameborder="1" allowfullscreen="true"></iframe>
+        <!-- <img src="img/map.png">  -->
         <img src="img/pin.svg" alt="pin">
-        <div>
+        <section class="black-text">
           <p>Адрес главного офиса и офлайн-магазина:</p>
           <p><b>ул. Большая Конюшенная 19/8, <br>
             Санкт-Петербург</b></p>
@@ -142,7 +148,7 @@
           <p><b>8 812 450-25-25</b><br>
             <span>(с 10 до 20 ежедневно)</span></p>
           <button type="button">Форма обратной связи</button>
-        </div>
+        </section>
       </section>
     </main>
     <footer>
@@ -152,7 +158,7 @@
         <li><img src="img/fb.svg" alt="facebook link"></li>
         <li><img src="img/vk.svg" alt="vk link"></li>
       </ul>
-      <div >
+      <div class="business-info">
         <div>
           <img src="img/heart.svg" alt="heart">
           <p><a href="#">Для поставщиков</a></p>
