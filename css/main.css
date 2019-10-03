@@ -1,87 +1,70 @@
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #fff;
   background-color: #849d8f;
+  color: white;
 }
 
-h2 {
+.header-h2 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
 }
-
-h3 {
+.header-h3 {
   font-weight: 500;
 }
-
-h4 {
+.header-h4 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
   text-decoration: underline;
 }
-
+p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #fff;
+}
 .subscribe-text {
   font-weight: 400;
   color: #5a5a5a;
 }
-
-input[type='email'] {
+.email {
   color: #999999;
 }
-
-button {
+.button {
   font-weight: 700;
   background-color: #ea5239;
 }
-
-button, a {
+.button, a {
   color: white;
 }
-
-header {
+.header {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
   font-weight: 700;
 }
-
-header button {
+.header .button {
   font-size: 14px;
   line-height: 21px;
   font-weight: 500;
 }
-
 .page-title {
   font-size: 60px;
   line-height: 90px;
   line-height: 62px;
-
 }
-
-/* .cone-bkg {
-  border-radius: 50%;
-  background-color: white;
-  height: 50%;
-  width: 50%;
-} */
-
 .cone1 {
   height: 450px;
   background: url("../img/cone1.png") no-repeat 50%;
   background-size: 250px;
 }
-
 .cone2 {
   height: 450px;
   background: url("../img/cone2.png") no-repeat center;
   background-size: 250px;
 }
-
-.hide-element {
+.visually-hidden {
   display: none;
 }
 
@@ -90,17 +73,22 @@ header button {
 }
 
 .raspberry-bkg {
-  background: url("../img/raspberry-bkg.png");
+  background: url("../img/raspberry-bkg.png") no-repeat;
 }
 
 .chocolate-bkg {
-  background: url("../img/chocolate-bkg.png");
+  background: url("../img/chocolate-bkg.png") no-repeat;
 }
 
 .waffle-bkg {
   background: url("../img/wafle-bkg.png");
+  color: black;
 }
 
 .strawberry-bkg {
-  background: url("../img/strawberry-bkg.png") 50%;
+  background: url("../img/strawberry-bkg.png") no-repeat;
+}
+
+.waffle-bkg, .strawberry-bkg, .striped-bkg, .location-info, .cart-info {
+  color: black;
 }

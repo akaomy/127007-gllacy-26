@@ -35,7 +35,7 @@
           <button type="button"><img src="img/entrance.svg" alt="login">Вход</button>
         </li>
         <li>
-          <a class="black-text" href="img/basket-red.svg">2 товара</a>
+          <a class="cart-info" href="img/basket-red.svg">2 товара</a>
         </li>
       </ul>
     </header>
@@ -49,30 +49,30 @@
           <a href="index.html">Главная</a> > <a href="catalog.html">Каталог</a>
            > Сливочное
         </section>
-        <h1 class="hide-element">Glacy Shop</h1>
-        <h2>Сливочное мороженое</h2>
+        <h1 class="visually-hidden">Gllacy Shop</h1>
+        <h2 class="header-h2">Сливочное мороженое</h2>
         <section>
           <form method="post" action="https://echo.htmlacademy.ru">
-            <label for="drop-down-sorting">Сортировка:</label><br>
+            <label for="drop-down-sorting">Сортировка:</label>
             <select id="drop-down-sorting">
               <option>по популярности</option>
               <option>сначала недорогие</option>
               <option>сначала дорогие</option>
               <option>по жирности</option>
             </select>
-            <label for="price-range">Цена: 100 руб. – 500 руб.</label><br>
+            <label for="price-range">Цена: 100 руб. – 500 руб.</label>
             <input type="range" id="price-range" name="price_range"/>
-            <label for="percentage">Жирность</label><br>
-            <input type="radio" name="0" value="0">0%<br>
-            <input type="radio" name="10%" value="10">до 10%<br>
-            <input type="radio" name="30%" value="30">до 30%<br>
-            <input type="radio" name="more_than_30%" value="30+">выше 30%<br>
-            <label for="fillings">Наполнители</label><br>
+            <label for="percentage">Жирность</label>
+            <input type="radio" name="0" value="0">0%
+            <input type="radio" name="10%" value="10">до 10%
+            <input type="radio" name="30%" value="30">до 30%
+            <input type="radio" name="more_than_30%" value="30+">выше 30%
+            <label for="fillings">Наполнители</label>
             <input type="checkbox" name="chocolate_flavor" value="chocolate"> шоколадные
             <input type="checkbox" name="sugar_powders" value="sugar_powders"> сахарные присыпки
             <input type="checkbox" name="fruits" value="fruits"> фрукты
             <input type="checkbox" name="jams" value="jams"> джемы
-            <button type="button">Применить</button>
+            <button class="button" type="button">Применить</button>
           </form>
         </section>
         <section>
@@ -153,14 +153,14 @@
       <section>
         <form>
           <div>
-            <button type="button" class="delete-btn">x</button>
+            <button class="delete-btn button" type="button">x</button>
             <img src="img/sm-ic-1.png" alt="ice cream image">
             <p>Пломбир с апельсиновым джемом</p>
             <p>1,5 кг х 200 руб.</p>
             <p>200 руб.</p>
           </div>
           <div>
-            <button type="button" class="delete-btn">x</button>
+            <button class="delete-btn button" type="button">x</button>
             <img src="img/sm-ic-2.png" alt="ice cream image">
             <p>Клубничный пломбир с присыпкой из белого шоколада</p>
             <p>1,5 кг х 300 руб.</p>
@@ -168,7 +168,7 @@
           </div>
           <hr>
           <p>Итого: 750 руб.</p>
-          <button type="button" name="Submit_order">Оформить заказ</button>
+          <button class="button" type="button" name="Submit_order">Оформить заказ</button>
         </form>
       </section>
   </body>
