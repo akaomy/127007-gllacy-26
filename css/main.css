@@ -92,3 +92,22 @@ p {
 .waffle-bkg, .strawberry-bkg, .striped-bkg, .location-info, .cart-info {
   color: black;
 }
+
+
+/* flex */
+.main-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: yellow;
+}
+
+.main {
+  background-color: green;
+}
+
+.footer {
+  background-color: blue;
+}
