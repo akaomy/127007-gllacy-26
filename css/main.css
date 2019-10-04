@@ -84,15 +84,12 @@ p {
   background: url("../img/wafle-bkg.png");
   color: black;
 }
-
 .strawberry-bkg {
   background: url("../img/strawberry-bkg.png") no-repeat;
 }
-
 .waffle-bkg, .strawberry-bkg, .striped-bkg, .location-info, .cart-info {
   color: black;
 }
-
 
 /* flex */
 .main-flex-wrapper {
@@ -101,43 +98,50 @@ p {
 }
 
 .cart-container {
-  border: 1px solid black;
+  border-radius: 5px;
   width: 540px;
   height: 242px;
   padding: 20px 20px 20px 90px;
+  background-color: white;
 }
-
-.cart-item p, .cart-item span{
+.cart-container p, .cart-item span{
   color: black;
 }
-
-.cart-item-button {
-  /* all: unset; */
-  position: absolute;
-  left: 20px;
-  /* border: none; */
-
+.cart-item {
+  display: inline;
 }
-
+.cart-item div{
+  display: inline-block;
+}
+.cart-item-text-total {
+  width: 420px;
+  padding-left: 20px;
+}
+.cart-item-title {
+  width: 216px;
+  padding-right: 32px;
+}
+.cart-item-calculation{
+  padding-right: 32px;
+  width: 50px;
+}
+.cart-item-single-item-cost {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.cart-item-button {
+  all: unset;
+  position: absolute;
+  left: 25px;
+  padding-top: 20px;
+}
 .cart-item-icon {
   position: absolute;
-  /* left: 20px; */
+  left: 45px;
+  padding-top: 15px;
 }
-
-
-/* .header {
-  position: fixed;
-} */
-
-/*
-.header {
-  background-color: yellow;
+.cart-total-price-wrapper {
+  float: right;
 }
-
-.main {
-  background-color: green;
-}
-
-.footer {
-  background-color: blue;
-} */
