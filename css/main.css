@@ -3,7 +3,6 @@ body {
   background-color: #849d8f;
   color: white;
 }
-
 .header-h2 {
   font-size: 24px;
   line-height: 36px;
@@ -11,6 +10,7 @@ body {
 }
 .header-h3 {
   font-weight: 500;
+  margin: 0;
 }
 .header-h4 {
   font-size: 24px;
@@ -38,11 +38,29 @@ p {
 .button, a {
   color: white;
 }
+.main-navigation ul, .main-navigation li, .search-login-cart li {
+  /* remove styling for all nested li */
+  list-style-type: none;
+  /* make them displayed in one line */
+  display: inline-block;
+}
 .header {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
   font-weight: 700;
+}
+.hero-image {
+  /* how to move this image to the top of the screen? */
+}
+.hero-image img {
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 .header .button {
   font-size: 14px;
@@ -54,48 +72,77 @@ p {
   line-height: 90px;
   line-height: 62px;
 }
-.cone1 {
-  height: 450px;
-  background: url("../img/cone1.png") no-repeat 50%;
-  background-size: 250px;
+.promo-banner {
+  border-radius: 7px;
+  padding: 22px 20px;
 }
-.cone2 {
-  height: 450px;
-  background: url("../img/cone2.png") no-repeat center;
-  background-size: 250px;
+.raspberry-bkg {
+  margin: 0 13px 0 27px;
+}
+.chocolate-bkg {
+  margin: 0 27px 0 13px;
 }
 .visually-hidden {
   display: none;
 }
-
 .black-text {
   color: #323232;
 }
-
 .raspberry-bkg {
   background: url("../img/raspberry-bkg.png") no-repeat;
 }
-
 .chocolate-bkg {
   background: url("../img/chocolate-bkg.png") no-repeat;
 }
-
 .waffle-bkg {
   background: url("../img/wafle-bkg.png");
   color: black;
 }
-
 .strawberry-bkg {
   background: url("../img/strawberry-bkg.png") no-repeat;
 }
-
 .waffle-bkg, .strawberry-bkg, .striped-bkg, .location-info, .cart-info {
   color: black;
 }
-
-
 /* flex */
 .main-flex-wrapper {
   display: flex;
   flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.work-hours-and-contact-number{
+  text-align: right;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.work-hours {
+  font-size: 14px;
+}
+.contact-number {
+  font-size: 22px;
+  font-weight: bold;
+}
+.title-and-action-btn {
+  text-align: center;
+}
+.promo-banners{
+  display: flex;
+  flex-direction: row;
+}
+.list-of-hits ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.advantages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.advantage {
+  width: 476px;
 }
