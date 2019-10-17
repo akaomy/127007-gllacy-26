@@ -38,20 +38,46 @@ p {
 .button, a {
   color: white;
 }
-.main-navigation ul, .main-navigation li, .search-login-cart li {
-  /* remove styling for all nested li */
-  list-style-type: none;
-  /* make them displayed in one line */
-  display: inline-block;
-}
 .header {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
   font-weight: 700;
 }
-.hero-image {
-  /* how to move this image to the top of the screen? */
+.header .button {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+}
+.logo {
+  padding: 10px 10px 10px 27px;
+  width: 155px;
+}
+.main-navigation ul, .main-navigation li, .search-login-cart li {
+  list-style-type: none;
+}
+.main-navigation {
+  padding: 0;
+  margin: 0;
+  padding: 32px 0;
+  width: 350px;
+}
+.main-navigation li {
+  display: inline-block;
+  position: relative;
+}
+.main-navigation a:hover, .main-navigation a:focus {
+  background-color: #fbded7;
+}
+.main-navigation a:active {
+  background-color: #f6b5a5;
+}
+/* .main-navigation a:visited {
+  background-color: #d07058;
+  color: white;
+} */
+.header a {
+  text-decoration: none;
 }
 .hero-image img {
   position: absolute;
@@ -61,11 +87,6 @@ p {
   left: 0;
   right: 0;
   z-index: -1;
-}
-.header .button {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
 }
 .page-title {
   font-size: 60px;
@@ -82,8 +103,19 @@ p {
 .chocolate-bkg {
   margin: 0 27px 0 13px;
 }
-.visually-hidden {
-  display: none;
+.visually-hidden:not(:focus):not(active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .black-text {
   color: #323232;
@@ -113,7 +145,7 @@ p {
 }
 .header {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 .work-hours-and-contact-number{
   text-align: right;
