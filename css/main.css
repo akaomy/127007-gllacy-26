@@ -64,7 +64,7 @@ p {
 }
 .main-navigation li {
   display: inline-block;
-  position: relative;
+  padding: 5px;
 }
 .main-navigation a:hover, .main-navigation a:focus {
   background-color: #fbded7;
@@ -76,6 +76,25 @@ p {
   background-color: #d07058;
   color: white;
 } */
+nav {
+  margin-left: 15px;
+  margin-right: 370px;
+}
+.search-login-cart {
+  padding: 0;
+  display: flex;
+}
+.header-button{
+  border: 0;
+  background: #9db1a5;
+  color: white;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 35%;
+}
+.header-button .entrance path{
+  fill: #fff;
+}
 .header a {
   text-decoration: none;
 }
