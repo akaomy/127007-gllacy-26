@@ -3,6 +3,10 @@ body {
   background-color: #849d8f;
   color: white;
 }
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
 .header-h2 {
   font-size: 24px;
   line-height: 36px;
