@@ -57,26 +57,26 @@ p {
   padding: 10px 10px 10px 27px;
   width: 155px;
 }
-.main-navigation ul, .main-navigation li, .search-login-cart li {
+.navigation__list ul, .navigation__list li, .site-functionality__items li {
   list-style-type: none;
 }
-.main-navigation {
+.navigation__list {
   padding: 0;
   margin: 0;
   padding: 32px 0;
   width: 350px;
 }
-.main-navigation li {
+.navigation__list li {
   display: inline-block;
   padding: 5px;
 }
-.main-navigation a:hover, .main-navigation a:focus {
+.navigation__list a:hover, .navigation__list a:focus {
   background-color: #fbded7;
 }
-.main-navigation a:active {
+.navigation__list a:active {
   background-color: #f6b5a5;
 }
-/* .main-navigation a:visited {
+/* .navigation__list a:visited {
   background-color: #d07058;
   color: white;
 } */
@@ -84,7 +84,7 @@ nav {
   margin-left: 15px;
   margin-right: 370px;
 }
-.search-login-cart {
+.site-functionality__items {
   padding: 0;
   display: flex;
 }
@@ -95,9 +95,6 @@ nav {
   padding: 7px;
   margin: 5px;
   border-radius: 35%;
-}
-.header-button .entrance path{
-  fill: #fff;
 }
 .header a {
   text-decoration: none;
