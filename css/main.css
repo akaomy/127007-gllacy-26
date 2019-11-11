@@ -12,7 +12,7 @@ body {
   line-height: 36px;
   font-weight: 500;
 }
-.header-h3 {
+.main-content__heading-3 {
   font-weight: 500;
   margin: 0;
 }
@@ -113,7 +113,7 @@ nav {
   line-height: 90px;
   line-height: 62px;
 }
-.promo-banner {
+.main-content__promo-banner-container {
   border-radius: 7px;
   padding: 22px 20px;
 }
@@ -185,18 +185,18 @@ nav {
   margin-top: 250px;
   margin-bottom: 50px;
 }
-.promo-banners{
+.main-content__promo-banners{
   display: flex;
   flex-direction: row;
 }
-.list-of-hits ul{
+.main-content__hits-container ul{
   display: flex;
   list-style: none;
 }
-.hit {
+.main-content__hit {
   width: 260px;
 }
-.hit img{
+.main-content__hit img{
   width: 200px;
   height: 200px;
 }
