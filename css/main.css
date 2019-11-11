@@ -99,7 +99,7 @@ nav {
 .header a {
   text-decoration: none;
 }
-.hero-image img {
+.main-content__hero-image-container img {
   position: absolute;
   top: 0;
   margin-left: auto;
@@ -167,20 +167,20 @@ nav {
   display: flex;
   /* flex-direction: row; */
 }
-.work-hours-and-contact-number{
+.main-content__work-hours-and-contact-number{
   text-align: right;
   max-width: 200px;
   display: flex;
   flex-direction: column;
 }
-.work-hours {
+.main-content__work-hours {
   font-size: 14px;
 }
-.contact-number {
+.main-content__contact-number {
   font-size: 22px;
   font-weight: bold;
 }
-.title-and-action-btn {
+.main-content__title-and-action-btn {
   text-align: center;
   margin-top: 250px;
   margin-bottom: 50px;
