@@ -233,4 +233,13 @@ nav {
 .list-item img {
   max-width: 200px;
 }
-/* test */
+
+/* index.html address section */
+.location-info {
+  background-color: #fff;
+  width: 303px;
+  height: 309px;
+}
+.location-info p{
+  color: #323232;
+}
