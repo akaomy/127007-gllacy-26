@@ -16,7 +16,7 @@ body {
   font-weight: 500;
   margin: 0;
 }
-.header-h4 {
+.main-content__header-h4 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
@@ -28,7 +28,7 @@ p {
   font-weight: 400;
   color: #fff;
 }
-.subscribe-text {
+.main-content__subscribe--text {
   font-weight: 400;
   color: #5a5a5a;
 }
@@ -154,7 +154,11 @@ nav {
 .strawberry-bkg {
   background: url("../img/strawberry-bkg.png") no-repeat;
 }
-.waffle-bkg, .strawberry-bkg, .striped-bkg, .location-info, .cart-info {
+.waffle-bkg,
+.strawberry-bkg, 
+.striped-bkg,
+.main-content__location-info-card,
+.cart-info {
   color: black;
 }
 /* flex */
@@ -199,14 +203,14 @@ nav {
   width: 200px;
   height: 200px;
 }
-.news-and-subscribtion{
+.main-content__news-and-subscribtion{
   display: flex;
 }
-.news {
+.main-content__news {
   width: 560px;
   margin: 40px 13px 20px 27px;
 }
-.subscribe{
+.main-content__subscribe{
   width: 560px;
   margin: 40px 27px 20px 13px;
 }
@@ -234,11 +238,11 @@ nav {
 }
 
 /* index.html address section */
-.location-info {
+.main-content__location-info-card {
   background-color: #fff;
   width: 303px;
   height: 309px;
 }
-.location-info p{
+.main-content__location-info-card p{
   color: #323232;
 }
