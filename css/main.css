@@ -7,7 +7,7 @@ body {
   max-width: 1100px;
   margin: auto;
 }
-.header-h2 {
+.main-content__heading-2 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
@@ -149,7 +149,6 @@ nav {
 .waffle-bkg {
   background: url("../img/wafle-bkg.png");
   color: black;
-  margin: 0 27px;
   border-radius: 7px;
 }
 .strawberry-bkg {
@@ -211,12 +210,12 @@ nav {
   width: 560px;
   margin: 40px 27px 20px 13px;
 }
-.advantages{
+.main-content__advantages{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.advantage {
+.main-content__advantage {
   width: 476px;
 }
 .items-list {
