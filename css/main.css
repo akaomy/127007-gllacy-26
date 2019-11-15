@@ -99,7 +99,7 @@ nav {
 .header a {
   text-decoration: none;
 }
-.main-content__hero-image-container img {
+.hero-banner__hero-image-container img {
   position: absolute;
   top: 0;
   margin-left: auto;
@@ -108,7 +108,7 @@ nav {
   right: 0;
   z-index: -1;
 }
-.page-title {
+.hero-banner__page-title {
   font-size: 60px;
   line-height: 90px;
   line-height: 62px;
@@ -155,7 +155,7 @@ nav {
   background: url("../img/strawberry-bkg.png") no-repeat;
 }
 .waffle-bkg,
-.strawberry-bkg, 
+.strawberry-bkg,
 .striped-bkg,
 .main-content__location-info-card,
 .cart-info {
@@ -170,25 +170,25 @@ nav {
   display: flex;
   /* flex-direction: row; */
 }
-.main-content__work-hours-and-contact-number{
+.hero-banner__work-hours-and-contact-number{
   text-align: right;
   max-width: 200px;
   display: flex;
   flex-direction: column;
 }
-.main-content__work-hours {
+.hero-banner__work-hours {
   font-size: 14px;
 }
-.main-content__contact-number {
+.hero-banner__contact-number {
   font-size: 22px;
   font-weight: bold;
 }
-.main-content__title-and-action-btn {
+.hero-banner__title-and-action-btn {
   text-align: center;
   margin-top: 250px;
   margin-bottom: 50px;
 }
-.main-content__promo-banners{
+.promo-banners{
   display: flex;
   flex-direction: row;
 }
